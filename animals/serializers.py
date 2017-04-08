@@ -5,3 +5,4 @@ from animals.models import Kitten
 class KittenSerialzer(ModelSerializer):
     class Meta:
         model= Kitten
+        fields=('name','color','age')
