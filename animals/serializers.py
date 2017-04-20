@@ -6,3 +6,9 @@ class KittenSerialzer(ModelSerializer):
     class Meta:
         model= Kitten
         fields=('name','color','age')
+
+
+class PuppySerialzer(ModelSerializer):
+    class Meta:
+        model= Kitten
+        fields=('name','color','age')
